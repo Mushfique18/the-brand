@@ -1,0 +1,327 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000000;
+}
+
+.topnav a {
+  float: left;
+  display: flex;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  padding: 14px 20px;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 17px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.dropdown:hover .dropbtn {
+  color: #000000;
+  background-color: lightgrey;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 14px 21px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: orangered;
+}
+
+.home {
+  border-style: none;
+  background-image: url(image/chicago.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+  vertical-align: middle;
+}
+
+.home h1 {
+  color: white;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  position: absolute;
+  left: 50%;
+  bottom: 14%;
+}
+
+.home p {
+  color: white;
+  position: absolute;
+  left: 42%;
+  bottom: 6%;
+}
+
+.section_2 {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: justify;
+}
+
+.band h2 {
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 31px;
+}
+
+.music {
+  text-align: center;
+  color: grey;
+}
+
+.pics {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.pics .picture img {
+  border-radius: 4px;
+}
+
+.section_3 {
+  background-color: black;
+
+  margin-top: 100px;
+
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: justify;
+}
+
+.all {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+}
+
+.section_3 .tour h2 {
+  color: white;
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 31px;
+}
+
+.section_3 .tour p {
+  color: rgb(155, 148, 148);
+  text-align: center;
+}
+
+.tour_date .date {
+  background-color: white;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  border: 1px solid #ccc !important;
+}
+
+.date li {
+  padding: 8px 16px;
+  border-bottom: 1px solid lightgray;
+  color: #757575;
+}
+
+.s_out {
+  color: #f9f9f9;
+  background-color: #f44336;
+  margin-left: 16px;
+  padding: 0 8px;
+}
+
+.three {
+  float: right;
+  color: #f9f9f9;
+  background-color: black;
+  margin-right: 16px;
+  padding: 0 8px;
+  border-radius: 50%;
+}
+
+.card {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 35px;
+  font-family: "Segoe UI", Arial, sans-serif;
+  text-align: justify;
+}
+
+.card_1 {
+  max-width: 300px;
+  background-color: white;
+  margin: 0 9px 80px 9px;
+}
+
+.card .card_1 button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 0 0 13px 13px;
+}
+
+.card .card_1 button:hover {
+  color: #000000;
+  background-color: lightgrey;
+  opacity: 0.7;
+}
+
+.card .card_1 h1 {
+  font-size: 16px;
+  margin-left: 13px;
+}
+
+.card .card_1 p {
+  margin: 8px 13px 17px 13px;
+}
+
+.title {
+  color: #757575;
+}
+
+.contact {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.contact h2 {
+  text-align: center;
+  letter-spacing: 4px;
+  font-weight: 400;
+  font-size: 31px;
+}
+
+.contact p {
+  color: #757575;
+}
+
+.fa {
+  display: inline-block;
+}
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.adress {
+  left: 0;
+}
+
+.input {
+  border: 1px solid #ccc;
+  padding: 8px;
+  display: block;
+  width: 100%;
+  margin: 9px;
+}
+
+.input_1 {
+  display: flex;
+}
+
+.form button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px 16px;
+  color: white;
+  background-color: black;
+  text-align: center;
+  cursor: pointer;
+  font-size: 18px;
+  float: right;
+  margin: 16px 8px 16px 0;
+}
+
+.form button:hover {
+  color: #000000;
+  background-color: lightgrey;
+  opacity: 0.7;
+}
+
+.message input {
+  width: 91%;
+}
+
+.map {
+  max-width: 100%;
+  height: auto;
+}
+
+.footer {
+  text-align: center;
+  color: #757575;
+  font-size: inherit;
+  margin: 100px 0;
+}
+
+.footer a {
+  color: #757575;
+}
